@@ -41,11 +41,13 @@ public class GeradorUtil {
 
     public String gerarTelefoneFixo() {
         return "(48)3" + gerarNumero(3) + "-" + gerarNumero(4);
+    }
 
     /**
      *
      * @return
      */
+    
     public String gerarCep() {
         return gerarNumero(5) + "-" + gerarNumero(3);
     }
@@ -90,4 +92,4 @@ public class GeradorUtil {
 }
 
     
-}
+
