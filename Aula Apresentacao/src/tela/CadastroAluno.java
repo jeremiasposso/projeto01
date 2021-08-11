@@ -140,7 +140,14 @@ public class CadastroAluno extends javax.swing.JFrame {
         temErro = validarCampo3Valor(nome);
         if(!temErro){
             aluno.setNome(nome);
-        }        
+        }else{
+            return true;
+        }
+        String nome = varNome.getText().trim();
+        temErro = validarCampo3Valor(nome);
+        if(!temErro){
+            aluno.setNome(nome);
+        
         return temErro;
     }
     private boolean  validarIdade(){
