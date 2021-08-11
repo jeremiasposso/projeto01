@@ -11,13 +11,12 @@ package entidade;
  */
 public class Aluno {
     private String nome;
-    private String idade;
+    private int idade;
     private String telefone;
     private float salario;
     private String logradouro;
     private String numero;
     private String bairro;
-    private boolean trabalha;
     private long cpf;
 
     public String getNome() {
@@ -27,11 +26,11 @@ public class Aluno {
         this.nome = nome;
     }
 
-    public String getIdade() {
+    public int getIdade() {
         return idade;
     }
 
-    public void setIdade(String idade) {
+    public void setIdade(int idade) {
         this.idade = idade;
     }
 
